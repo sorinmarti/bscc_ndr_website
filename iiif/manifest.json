@@ -1,0 +1,117 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://399c5eaa-72ea-434a-99d0-2e7325f0efdc",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://a1624e26-11cf-49c8-8e9a-38e8d097ad48",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://5e73b3df-7a51-42a6-a2ec-bad32a6e37d9",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3507,
+					"width": 2480,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://4a6a3bf1-325a-4550-8905-eec5024d077b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://bscc.philhist.unibas.ch/iiif/3/0001.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://bscc.philhist.unibas.ch/iiif/3/0001.jpg",
+									"profile": "level2"
+								},
+								"height": 3507,
+								"width": 2480
+							},
+							"on": "http://5e73b3df-7a51-42a6-a2ec-bad32a6e37d9"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://5aac9ad4-3329-460e-86a3-3bc69b331678",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2586,
+					"width": 1868,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://950b3962-b97d-445d-989d-cf056fa63980",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://bscc.philhist.unibas.ch/iiif/3/0002.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://bscc.philhist.unibas.ch/iiif/3/0002.jpg",
+									"profile": "level2"
+								},
+								"height": 2586,
+								"width": 1868
+							},
+							"on": "http://5aac9ad4-3329-460e-86a3-3bc69b331678"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://6378cfc2-19e9-4af1-a9eb-32e6464c37aa",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2576,
+					"width": 1766,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://277b5046-7c7a-4b4b-852b-e5a42688f224",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://bscc.philhist.unibas.ch/iiif/3/0003.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://bscc.philhist.unibas.ch/iiif/3/0003.jpg",
+									"profile": "level2"
+								},
+								"height": 2576,
+								"width": 1766
+							},
+							"on": "http://6378cfc2-19e9-4af1-a9eb-32e6464c37aa"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/java -Dcantaloupe.config=/var/www/bscc_ndr/iiif/cantaloupe-5.0.5/cantaloupe.properties -Xmx2g -jar /var/www/bscc_ndr/iiif/cantaloupe-5.0.5/cantaloupe-5.0.5.jar

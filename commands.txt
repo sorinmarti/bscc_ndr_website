@@ -1,0 +1,33 @@
+
+apt install <packagename>	// Verwaltung der Ubuntu-Softwarepakete (Bsp.: apt install python3-pip)
+apt upgrade			
+apt update
+
+cat <filename>			// Textdatei-Inhalt in Konsole anzeigen
+
+deactivate			// Deaktiviert virtuelle Umgebung
+
+git clone <https://token@url>	// Github-Repo klonen. (Bsp.: https://slkdjfoertjlojdgfl@github.ocm/username/repo.git)
+
+git pull			// In 'django_ndr_core': Update auf letzte Version 
+
+ls [<path>]			// Listet den aktuellen Ordner. Pfadangabe optional. (Bsp.: ls /path/to/folder)
+
+man <command>			// Zeigt Hilfeseite zu einem Befehl. (Bsp.: man ls)
+
+nano <filename>			// Öffnet Datei in Nano-Editor
+
+pwd				// Zeigt aktuellen Ornderpfad
+
+pip install <packagename>
+pip install -r requirements.txt	// Installiert Abhängigkeiten aus requirements.txt
+
+python3 -m venv virtualenv	// Kriert virtuelle Python-Umgebung
+
+sudo <shell command>		// Führt etwas als superuser aus
+
+source virtualenv/bin/activate	// Aktiviert virtuelle Umgebung
+
+systemctl start nginx		// Startet, Stoppt und Restarted Dienste.
+systemctl stop nginx
+systemctl restart nginx		// Oder ein anderer Dienstname als 'nginx', z.B. 'gunicorn'
